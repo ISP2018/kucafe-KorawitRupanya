@@ -32,7 +32,7 @@ If your repository doesn't contain the "merges" described here you won't learn a
 
 4. Create a feature branch off of master for creating the new, unified menu.  First switch to `master`. Then create a new branch named `dev-one-menu` and switch to it.  What is(are) the command(s) for this?
 ```
-cmd>git brach dev-one-menu
+cmd>git branch dev-one-menu
 cmd>git checkout dev-one-menu
 ```
 
