@@ -32,8 +32,8 @@ If your repository doesn't contain the "merges" described here you won't learn a
 
 4. Create a feature branch off of master for creating the new, unified menu.  First switch to `master`. Then create a new branch named `dev-one-menu` and switch to it.  What is(are) the command(s) for this?
 ```
-cmd>
-cmd>
+cmd>git brach dev-one-menu
+cmd>git checkout dev-one-menu
 ```
 
 5. (Optional) Are you tired of typing "git checkout xxxx"?  Create an alias "co" so you can just type "git co branchname" (Subersion has this alias):
@@ -77,7 +77,7 @@ cmd> edit menu.md  (use any text editor you like)
 
 12. Commit your revised `menu.md`. Write a good, descriptive commit message since you merged conflicting files.
 
-13. Switch back to "master" and merge the `dev-one-menu` branch.  This time the merge is easy.  Wny?
+13. Switch back to "master" and merge the `dev-one-menu` branch.  This time the merge is easy.  Why?
     * After that, make changes to README.md on `master` and commit it.
   
 14. Push the updated `master` branch to Github.
